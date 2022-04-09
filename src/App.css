@@ -1,0 +1,71 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Hairline&display=swap');
+.head{
+  font-family: 'Bungee Hairline', cursive !important;
+  font-size: 150%;
+  position: sticky;
+  z-index: 1;
+  top: 0;
+  font-weight: bolder !important;
+  background-color: #ddd;
+}
+
+.head1{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1rem;
+  color: black;
+  font-weight: bolder;
+}
+ul li{
+  list-style-type: none;
+}
+.btn1{
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+.btn {
+  position: absolute;
+  z-index: -1;
+}
+.list{
+  margin-bottom: 20px;
+  background-color: lightblue;
+  display: flex;
+  justify-content:space-between
+  
+}
+
+
+.footer {
+  
+ 
+  
+ position: sticky;
+ display: flex;
+ justify-content: center;
+  bottom: 0;
+  z-index: -1;
+
+ }
+
+ @media (max-width: 499px) {
+  
+  .head{
+    font-size: 90%;
+  }
+}
+
+
+ @media (min-width:500px) and (max-width: 768px) {
+
+  .head{
+    font-size: 110%;
+  }
+}
+/* 
+@media (min-width:768px) and (max-width: 1200px) {
+  body {
+    background-color: pink;
+  }
+}  */
